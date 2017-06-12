@@ -8,7 +8,9 @@ PBW 200 웨어러블 기기와 연동되는 헬스 케어 어플리케이션.
 MPAndroidChart 사용
 PBW SDK 사용
 
-#UCC
+#UCC1
 
 https://www.youtube.com/watch?v=-1rauIOHD68
+
+#UCC2
 https://www.youtube.com/watch?v=BTS_TxQE43U
