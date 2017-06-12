@@ -1,0 +1,70 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        c9c4eba com.yjrlab.idoll/.activity.TestActivity filter c5e88f5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.yjrlab.idoll/com.android.tools.fd.runtime.InstantRunContentProvider:
+    Provider{c66616b com.yjrlab.idoll/com.android.tools.fd.runtime.InstantRunContentProvider}
+
+ContentProvider Authorities:
+  [com.yjrlab.idoll.com.android.tools.fd.runtime.InstantRunContentProvider]:
+    Provider{c66616b com.yjrlab.idoll/com.android.tools.fd.runtime.InstantRunContentProvider}
+      applicationInfo=ApplicationInfo{d0844c8 com.yjrlab.idoll}
+
+Key Set Manager:
+  [com.yjrlab.idoll]
+      Signing KeySets: 30
+
+Packages:
+  Package [com.yjrlab.idoll] (e24acb0):
+    userId=10093
+    pkg=Package{c2a6961 com.yjrlab.idoll}
+    codePath=/data/app/com.yjrlab.idoll-2
+    resourcePath=/data/app/com.yjrlab.idoll-2
+    legacyNativeLibraryDir=/data/app/com.yjrlab.idoll-2/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=18 targetSdk=25
+    versionName=1.0
+    splits=[base, lib_dependencies_apk, lib_slice_0_apk, lib_slice_1_apk, lib_slice_2_apk, lib_slice_3_apk, lib_slice_4_apk, lib_slice_5_apk, lib_slice_6_apk, lib_slice_7_apk, lib_slice_8_apk, lib_slice_9_apk]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{d0844c8 com.yjrlab.idoll}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.yjrlab.idoll
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-06-04 19:27:53
+    firstInstallTime=2017-06-03 20:27:17
+    lastUpdateTime=2017-06-04 19:28:03
+    signatures=PackageSignatures{828caae [846bf0f]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+    install permissions:
+      android.permission.BLUETOOTH: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+    User 0: ceDataInode=1096673 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      gids=[3002, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+
+
+Dexopt state:
+  [com.yjrlab.idoll]
+    Instruction Set: arm
+      path: /data/app/com.yjrlab.idoll-2/base.apk
+      status: /data/app/com.yjrlab.idoll-2/oat/arm/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [com.yjrlab.idoll]
+     base.apk - 166
